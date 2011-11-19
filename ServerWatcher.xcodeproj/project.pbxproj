@@ -16,8 +16,11 @@
 		72C8D0E61478308B0093B67E /* ServerWatcherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D0E51478308B0093B67E /* ServerWatcherAppDelegate.m */; };
 		72C8D0E91478308B0093B67E /* ServerWatcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D0E71478308B0093B67E /* ServerWatcher.xcdatamodeld */; };
 		72C8D0EC1478308B0093B67E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72C8D0EA1478308B0093B67E /* MainWindow.xib */; };
-		72C8D0EF1478308B0093B67E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D0EE1478308B0093B67E /* RootViewController.m */; };
 		72C8D0F21478308B0093B67E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72C8D0F01478308B0093B67E /* RootViewController.xib */; };
+		72C8D113147835640093B67E /* ConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D10B147835640093B67E /* ConfigurationController.m */; };
+		72C8D114147835640093B67E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D10D147835640093B67E /* RootViewController.m */; };
+		72C8D115147835640093B67E /* ServerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D110147835640093B67E /* ServerConfiguration.m */; };
+		72C8D116147835640093B67E /* ConfigurationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72C8D112147835640093B67E /* ConfigurationController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,17 +29,22 @@
 		72C8D0D51478308B0093B67E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72C8D0D71478308B0093B67E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		72C8D0D91478308B0093B67E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		72C8D0DD1478308B0093B67E /* ServerWatcher-Info.plist */ = {isa = PBXFileReference; path = "ServerWatcher-Info.plist"; sourceTree = "<group>"; };
+		72C8D0DD1478308B0093B67E /* ServerWatcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerWatcher-Info.plist"; sourceTree = "<group>"; };
 		72C8D0DF1478308B0093B67E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		72C8D0E11478308B0093B67E /* ServerWatcher-Prefix.pch */ = {isa = PBXFileReference; path = "ServerWatcher-Prefix.pch"; sourceTree = "<group>"; };
+		72C8D0E11478308B0093B67E /* ServerWatcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerWatcher-Prefix.pch"; sourceTree = "<group>"; };
 		72C8D0E21478308B0093B67E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		72C8D0E41478308B0093B67E /* ServerWatcherAppDelegate.h */ = {isa = PBXFileReference; path = ServerWatcherAppDelegate.h; sourceTree = "<group>"; };
+		72C8D0E41478308B0093B67E /* ServerWatcherAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerWatcherAppDelegate.h; sourceTree = "<group>"; };
 		72C8D0E51478308B0093B67E /* ServerWatcherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerWatcherAppDelegate.m; sourceTree = "<group>"; };
 		72C8D0E81478308B0093B67E /* ServerWatcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ServerWatcher.xcdatamodel; sourceTree = "<group>"; };
 		72C8D0EB1478308B0093B67E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		72C8D0ED1478308B0093B67E /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
-		72C8D0EE1478308B0093B67E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		72C8D0F11478308B0093B67E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		72C8D10A147835640093B67E /* ConfigurationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationController.h; sourceTree = "<group>"; };
+		72C8D10B147835640093B67E /* ConfigurationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationController.m; sourceTree = "<group>"; };
+		72C8D10C147835640093B67E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		72C8D10D147835640093B67E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		72C8D10F147835640093B67E /* ServerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerConfiguration.h; sourceTree = "<group>"; };
+		72C8D110147835640093B67E /* ServerConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerConfiguration.m; sourceTree = "<group>"; };
+		72C8D112147835640093B67E /* ConfigurationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigurationController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +93,12 @@
 		72C8D0DB1478308B0093B67E /* ServerWatcher */ = {
 			isa = PBXGroup;
 			children = (
+				72C8D109147835640093B67E /* controller */,
+				72C8D10E147835640093B67E /* model */,
+				72C8D111147835640093B67E /* view */,
 				72C8D0E41478308B0093B67E /* ServerWatcherAppDelegate.h */,
 				72C8D0E51478308B0093B67E /* ServerWatcherAppDelegate.m */,
 				72C8D0EA1478308B0093B67E /* MainWindow.xib */,
-				72C8D0ED1478308B0093B67E /* RootViewController.h */,
-				72C8D0EE1478308B0093B67E /* RootViewController.m */,
 				72C8D0F01478308B0093B67E /* RootViewController.xib */,
 				72C8D0E71478308B0093B67E /* ServerWatcher.xcdatamodeld */,
 				72C8D0DC1478308B0093B67E /* Supporting Files */,
@@ -106,6 +115,37 @@
 				72C8D0E21478308B0093B67E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72C8D109147835640093B67E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				72C8D10A147835640093B67E /* ConfigurationController.h */,
+				72C8D10B147835640093B67E /* ConfigurationController.m */,
+				72C8D10C147835640093B67E /* RootViewController.h */,
+				72C8D10D147835640093B67E /* RootViewController.m */,
+			);
+			name = controller;
+			path = ../../../../../Users/ivankovalisko/projects/ServerWatcher/ServerWatcher/controller;
+			sourceTree = "<group>";
+		};
+		72C8D10E147835640093B67E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				72C8D10F147835640093B67E /* ServerConfiguration.h */,
+				72C8D110147835640093B67E /* ServerConfiguration.m */,
+			);
+			name = model;
+			path = ../../../../../Users/ivankovalisko/projects/ServerWatcher/ServerWatcher/model;
+			sourceTree = "<group>";
+		};
+		72C8D111147835640093B67E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				72C8D112147835640093B67E /* ConfigurationController.xib */,
+			);
+			name = view;
+			path = ../../../../../Users/ivankovalisko/projects/ServerWatcher/ServerWatcher/view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +198,7 @@
 				72C8D0E01478308B0093B67E /* InfoPlist.strings in Resources */,
 				72C8D0EC1478308B0093B67E /* MainWindow.xib in Resources */,
 				72C8D0F21478308B0093B67E /* RootViewController.xib in Resources */,
+				72C8D116147835640093B67E /* ConfigurationController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +212,9 @@
 				72C8D0E31478308B0093B67E /* main.m in Sources */,
 				72C8D0E61478308B0093B67E /* ServerWatcherAppDelegate.m in Sources */,
 				72C8D0E91478308B0093B67E /* ServerWatcher.xcdatamodeld in Sources */,
-				72C8D0EF1478308B0093B67E /* RootViewController.m in Sources */,
+				72C8D113147835640093B67E /* ConfigurationController.m in Sources */,
+				72C8D114147835640093B67E /* RootViewController.m in Sources */,
+				72C8D115147835640093B67E /* ServerConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +327,7 @@
 				72C8D0F71478308B0093B67E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
