@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72C8D0D41478308B0093B67E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C8D0D31478308B0093B67E /* UIKit.framework */; };
+		72C8D0D61478308B0093B67E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C8D0D51478308B0093B67E /* Foundation.framework */; };
+		72C8D0D81478308B0093B67E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C8D0D71478308B0093B67E /* CoreGraphics.framework */; };
+		72C8D0DA1478308B0093B67E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C8D0D91478308B0093B67E /* CoreData.framework */; };
+		72C8D0E01478308B0093B67E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72C8D0DE1478308B0093B67E /* InfoPlist.strings */; };
+		72C8D0E31478308B0093B67E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D0E21478308B0093B67E /* main.m */; };
+		72C8D0E61478308B0093B67E /* ServerWatcherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D0E51478308B0093B67E /* ServerWatcherAppDelegate.m */; };
+		72C8D0E91478308B0093B67E /* ServerWatcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D0E71478308B0093B67E /* ServerWatcher.xcdatamodeld */; };
+		72C8D0EC1478308B0093B67E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72C8D0EA1478308B0093B67E /* MainWindow.xib */; };
+		72C8D0EF1478308B0093B67E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D0EE1478308B0093B67E /* RootViewController.m */; };
+		72C8D0F21478308B0093B67E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72C8D0F01478308B0093B67E /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72C8D0CF1478308B0093B67E /* ServerWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C8D0D31478308B0093B67E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72C8D0D51478308B0093B67E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72C8D0D71478308B0093B67E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72C8D0D91478308B0093B67E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		72C8D0DD1478308B0093B67E /* ServerWatcher-Info.plist */ = {isa = PBXFileReference; path = "ServerWatcher-Info.plist"; sourceTree = "<group>"; };
+		72C8D0DF1478308B0093B67E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72C8D0E11478308B0093B67E /* ServerWatcher-Prefix.pch */ = {isa = PBXFileReference; path = "ServerWatcher-Prefix.pch"; sourceTree = "<group>"; };
+		72C8D0E21478308B0093B67E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72C8D0E41478308B0093B67E /* ServerWatcherAppDelegate.h */ = {isa = PBXFileReference; path = ServerWatcherAppDelegate.h; sourceTree = "<group>"; };
+		72C8D0E51478308B0093B67E /* ServerWatcherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerWatcherAppDelegate.m; sourceTree = "<group>"; };
+		72C8D0E81478308B0093B67E /* ServerWatcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ServerWatcher.xcdatamodel; sourceTree = "<group>"; };
+		72C8D0EB1478308B0093B67E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		72C8D0ED1478308B0093B67E /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		72C8D0EE1478308B0093B67E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		72C8D0F11478308B0093B67E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72C8D0CC1478308B0093B67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C8D0D41478308B0093B67E /* UIKit.framework in Frameworks */,
+				72C8D0D61478308B0093B67E /* Foundation.framework in Frameworks */,
+				72C8D0D81478308B0093B67E /* CoreGraphics.framework in Frameworks */,
+				72C8D0DA1478308B0093B67E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C8D0C41478308B0093B67E = {
+			isa = PBXGroup;
+			children = (
+				72C8D0DB1478308B0093B67E /* ServerWatcher */,
+				72C8D0D21478308B0093B67E /* Frameworks */,
+				72C8D0D01478308B0093B67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72C8D0D01478308B0093B67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C8D0CF1478308B0093B67E /* ServerWatcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C8D0D21478308B0093B67E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72C8D0D31478308B0093B67E /* UIKit.framework */,
+				72C8D0D51478308B0093B67E /* Foundation.framework */,
+				72C8D0D71478308B0093B67E /* CoreGraphics.framework */,
+				72C8D0D91478308B0093B67E /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72C8D0DB1478308B0093B67E /* ServerWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				72C8D0E41478308B0093B67E /* ServerWatcherAppDelegate.h */,
+				72C8D0E51478308B0093B67E /* ServerWatcherAppDelegate.m */,
+				72C8D0EA1478308B0093B67E /* MainWindow.xib */,
+				72C8D0ED1478308B0093B67E /* RootViewController.h */,
+				72C8D0EE1478308B0093B67E /* RootViewController.m */,
+				72C8D0F01478308B0093B67E /* RootViewController.xib */,
+				72C8D0E71478308B0093B67E /* ServerWatcher.xcdatamodeld */,
+				72C8D0DC1478308B0093B67E /* Supporting Files */,
+			);
+			path = ServerWatcher;
+			sourceTree = "<group>";
+		};
+		72C8D0DC1478308B0093B67E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C8D0DD1478308B0093B67E /* ServerWatcher-Info.plist */,
+				72C8D0DE1478308B0093B67E /* InfoPlist.strings */,
+				72C8D0E11478308B0093B67E /* ServerWatcher-Prefix.pch */,
+				72C8D0E21478308B0093B67E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72C8D0CE1478308B0093B67E /* ServerWatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C8D0F51478308B0093B67E /* Build configuration list for PBXNativeTarget "ServerWatcher" */;
+			buildPhases = (
+				72C8D0CB1478308B0093B67E /* Sources */,
+				72C8D0CC1478308B0093B67E /* Frameworks */,
+				72C8D0CD1478308B0093B67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerWatcher;
+			productName = ServerWatcher;
+			productReference = 72C8D0CF1478308B0093B67E /* ServerWatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72C8D0C61478308B0093B67E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 72C8D0C91478308B0093B67E /* Build configuration list for PBXProject "ServerWatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72C8D0C41478308B0093B67E;
+			productRefGroup = 72C8D0D01478308B0093B67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72C8D0CE1478308B0093B67E /* ServerWatcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72C8D0CD1478308B0093B67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C8D0E01478308B0093B67E /* InfoPlist.strings in Resources */,
+				72C8D0EC1478308B0093B67E /* MainWindow.xib in Resources */,
+				72C8D0F21478308B0093B67E /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C8D0CB1478308B0093B67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C8D0E31478308B0093B67E /* main.m in Sources */,
+				72C8D0E61478308B0093B67E /* ServerWatcherAppDelegate.m in Sources */,
+				72C8D0E91478308B0093B67E /* ServerWatcher.xcdatamodeld in Sources */,
+				72C8D0EF1478308B0093B67E /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72C8D0DE1478308B0093B67E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C8D0DF1478308B0093B67E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72C8D0EA1478308B0093B67E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C8D0EB1478308B0093B67E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		72C8D0F01478308B0093B67E /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C8D0F11478308B0093B67E /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72C8D0F31478308B0093B67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72C8D0F41478308B0093B67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		72C8D0F61478308B0093B67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerWatcher/ServerWatcher-Prefix.pch";
+				INFOPLIST_FILE = "ServerWatcher/ServerWatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72C8D0F71478308B0093B67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerWatcher/ServerWatcher-Prefix.pch";
+				INFOPLIST_FILE = "ServerWatcher/ServerWatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72C8D0C91478308B0093B67E /* Build configuration list for PBXProject "ServerWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C8D0F31478308B0093B67E /* Debug */,
+				72C8D0F41478308B0093B67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C8D0F51478308B0093B67E /* Build configuration list for PBXNativeTarget "ServerWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C8D0F61478308B0093B67E /* Debug */,
+				72C8D0F71478308B0093B67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72C8D0E71478308B0093B67E /* ServerWatcher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72C8D0E81478308B0093B67E /* ServerWatcher.xcdatamodel */,
+			);
+			currentVersion = 72C8D0E81478308B0093B67E /* ServerWatcher.xcdatamodel */;
+			path = ServerWatcher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72C8D0C61478308B0093B67E /* Project object */;
+}
