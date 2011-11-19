@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class ServerConfiguration;
 
-@interface ConfigurationController : UITableViewController {
+@interface ConfigurationController : UITableViewController <UITextFieldDelegate> {
+    ServerConfiguration *serverConfiguration;
     
+    @private
+    UITextField *editField_;
 }
+
+@property (retain, nonatomic) ServerConfiguration *serverConfiguration;
 
 @end

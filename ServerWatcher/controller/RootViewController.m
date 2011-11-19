@@ -8,6 +8,9 @@
 
 #import "RootViewController.h"
 
+#import "ConfigurationController.h"
+#import "ServerConfiguration.h"
+
 @interface RootViewController ()
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
 @end
@@ -27,6 +30,8 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject)];
     self.navigationItem.rightBarButtonItem = addButton;
     [addButton release];
+    
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:nil action:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -131,6 +136,13 @@
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
 	*/
+    
+    NSManagedObject *managedObject = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    
+    ConfigurationController *controller_ = [[ConfigurationController alloc] initWithNibName:@"ConfigurationController" bundle:[NSBundle mainBundle]];
+    controller_.serverConfiguration = (ServerConfiguration*) managedObject;
+    [self.navigationController pushViewController:controller_ animated:YES];
+    [controller_ release];
 }
 
 - (void)didReceiveMemoryWarning
